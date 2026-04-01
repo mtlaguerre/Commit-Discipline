@@ -182,3 +182,27 @@
     border-right-color: var(--border);
   }
 }
+
+#nameTxtField, #professionTxtField {
+  margin: 10px;
+}
+
+input[type="radio"] {
+  margin: 25px;
+}
+
+#submitBtn {
+  padding: 5px 10px;
+  font-size: large;
+  border: 1px #787878 solid;
+  border-radius: 3px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 400px;
+  margin-left: -200px;
+}

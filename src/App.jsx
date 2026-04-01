@@ -1,6 +1,7 @@
 import './App.css'
 import Content from './Components/Content.jsx';
 import Footer from './Components/Footer.jsx';
+import Form from './Components/Form.jsx';
 import './Components/Header.jsx'
 import Header from './Components/Header.jsx';
 
@@ -15,6 +16,7 @@ function App() {
 			<br />
 			<Content content={content} />
 			<br />
+			<Form />
 			<Footer content={footerContent}/>
 		</>
 	)
