@@ -194,7 +194,9 @@ input[type="radio"] {
 #submitBtn {
   padding: 5px 10px;
   font-size: large;
-  border: 1px #787878 solid;
+  color: #ccc;
+  background-color: rgb(17, 115, 17);
+  border: 1px #116333 solid;
   border-radius: 3px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
