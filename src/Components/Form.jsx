@@ -12,7 +12,7 @@ export default function Form() {
                 </div>
 
                 <div>
-                    <label htmlFor="satifactionLabel">Satisfaction Level:</label>
+                    <label htmlFor="satifactionLabel">Leave a review:</label>
                     <input type="radio" name="rating"/>1
                     <input type="radio" name="rating"/>2
                     <input type="radio" name="rating"/>3
