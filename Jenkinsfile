@@ -10,6 +10,7 @@ pipeline {
 
         stage('Build and Test') {
             steps {
+                bat 'npm install -D vitest'
                 bat 'npm run test'
             }
             post {
