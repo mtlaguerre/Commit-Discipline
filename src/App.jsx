@@ -1,3 +1,4 @@
+import './App.css';
 import Content from './Components/Content.jsx';
 import Footer from './Components/Footer.jsx';
 import Form from './Components/Form.jsx';
