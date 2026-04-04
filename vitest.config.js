@@ -12,5 +12,7 @@ export default defineConfig({
         { browser: 'chromium' }
       ],
     },
+    reporters: ['default', 'junit'],
+    outputFile: 'test-results.xml'
   },
 })
