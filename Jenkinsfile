@@ -14,9 +14,6 @@ pipeline {
                 bat 'npm install -D vitest-browser-react @vitest/browser-playwright'
                 bat 'npm run test'
             }
-            post {
-                echo 'Completed Tests'
-            }
         }
     }
 }
