@@ -8,4 +8,11 @@ export default defineConfig({
     react(),
     babel({ presets: [reactCompilerPreset()] })
   ],
+  test: {
+    browser: {
+      enabled: true,          // Enables browser mode
+      name: 'chromium',       // Target browser
+      provider: 'playwright'
+    }
+  }
 })

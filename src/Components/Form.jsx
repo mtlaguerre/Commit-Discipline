@@ -4,15 +4,15 @@ export default function Form() {
         <>
             <form id="satisfactionForm">
                 <div>
-                    <label htmlFor="nameLabel">Name:</label>
+                    <label name="nameLabel">Name:</label>
                     <input type="text" id="nameTxtField" />
 
-                    <label htmlFor="professionLabel">Profession:</label>
+                    <label name="professionLabel">Profession:</label>
                     <input type="text" id="professionTxtField" />
                 </div>
 
                 <div>
-                    <label htmlFor="satifactionLabel">Leave a review:</label>
+                    <label name="ratingLabel" id="ratingLabel" data-testid="ratingLabel">Leave a review:</label>
                     <input type="radio" name="rating"/>1
                     <input type="radio" name="rating"/>2
                     <input type="radio" name="rating"/>3
