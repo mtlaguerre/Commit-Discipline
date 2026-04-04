@@ -11,7 +11,7 @@ pipeline {
         stage('Build and Test') {
             steps {
                 bat 'npm install -D vitest'
-                bat 'npx playwright install'
+                bat 'npm install -D vitest-browser-react @vitest/browser-playwright'
                 bat 'npm run test'
             }
             post {
