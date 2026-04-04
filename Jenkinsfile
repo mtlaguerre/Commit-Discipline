@@ -15,9 +15,7 @@ pipeline {
                 bat 'npm run test'
             }
             post {
-                always {
-                    archiveArtifact artifacts: 'dist/*', allowEmptyArchive: true
-                }
+                echo 'Completed Tests'
             }
         }
     }
