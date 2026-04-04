@@ -11,6 +11,7 @@ pipeline {
         stage('Build and Test') {
             steps {
                 bat 'npm install -D vitest'
+                bat 'npx playwright install'
                 bat 'npm run test'
             }
             post {
